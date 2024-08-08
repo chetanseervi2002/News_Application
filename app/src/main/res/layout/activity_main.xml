@@ -23,7 +23,7 @@
            <TextView
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:text="News App \n \n By Chetan Choudhary"
+               android:text="The Brief News "
                android:textColor="@color/yellow"
                android:textAlignment="center"
                android:padding="4dp"

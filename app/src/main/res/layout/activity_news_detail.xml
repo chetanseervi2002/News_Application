@@ -8,12 +8,16 @@
     tools:context=".NewsDetailActivity">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:background="@color/black_shade_1"
-        app:titleTextColor="@color/yellow"
-        android:id="@+id/toolbar"
-        app:title="News App"/>
+        app:title="The Brief News"
+        app:titleTextColor="@color/yellow" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_above="@id/idBtnReadNews"
@@ -26,13 +30,18 @@
             >
 
             <ImageView
+                android:id="@+id/idIVNews"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:scaleType="centerCrop"
-                android:id="@+id/idIVNews"
-                android:layout_margin="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
                 android:padding="3dp"
-                />
+                android:scaleType="centerCrop" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
